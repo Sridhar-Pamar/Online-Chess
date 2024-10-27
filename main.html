@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Game Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>CHESS RULES</h1>
+        
+        <div class="main-content">
+            <div class="chess-pieces">
+                <div class="piece">
+                    <i class="fa-solid fa-chess-king chess-icon"></i>
+                    <h3>King</h3>
+                    <p>Moves one square in any direction.</p>
+                </div>
+                <div class="piece">
+                    <i class="fa-solid fa-chess-queen chess-icon"></i>
+                    <h3>Queen</h3>
+                    <p>Moves any number of squares in any direction.</p>
+                </div>
+                <div class="piece">
+                    <i class="fa-solid fa-chess-rook chess-icon"></i>
+                    <h3>Rook</h3>
+                    <p>Moves any number of squares vertically or horizontally.</p>
+                </div>
+                <div class="piece">
+                    <i class="fa-solid fa-chess-bishop chess-icon"></i>
+                    <h3>Bishop</h3>
+                    <p>Moves any number of squares diagonally.</p>
+                </div>
+                <div class="piece">
+                    <i class="fa-solid fa-chess-knight chess-icon"></i>
+                    <h3>Knight</h3>
+                    <p>Moves in an L-shape: two squares in one direction and then one square perpendicular.</p>
+                </div>
+                <div class="piece">
+                    <i class="fa-solid fa-chess-pawn chess-icon"></i>
+                    <h3>Pawn</h3>
+                    <p>Moves forward one square (two squares on its first move), captures diagonally.</p>
+                </div>
+            </div>
+
+            <div class="chessboard-container">
+                <div class="play-online">
+                    <h2>Play Online Chess</h2>
+                    <i class="fa-solid fa-chess-board chess-icon" style="font-size: 50px;"></i>
+                    <button id="online-play-button" onclick="goToChessGame()">Play Online (click here to go next page)</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
